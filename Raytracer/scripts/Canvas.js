@@ -16,8 +16,7 @@ class Canvas {
 
     drawPixel(x, y, color) {
         this.ctx.fillStyle = color;
-        this.ctx.rect(x + this.width / 2, -y + this.height / 2, 1, 1);
-        this.ctx.fill();
+        this.ctx.fillRect(x + this.width / 2, -y + this.height / 2, 1, 1);
     }
 }
 
